@@ -3,7 +3,6 @@ quarkus:
   http:
     port: 8080
     ssl-port: 8443
-    cors: true
 
   # # Logging configuration
   # log:
@@ -51,3 +50,5 @@ quarkus:
   #     prometheus:
   #       enabled: true
   #       path: /metrics
+    cors:
+      enabled: true
